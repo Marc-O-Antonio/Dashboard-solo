@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-color: $background-color;
+    color: $font-color;
+    line-height: 1.7;
+    font-size: $paragraph-font-size;
+    font-family: $brand-font;
+}
