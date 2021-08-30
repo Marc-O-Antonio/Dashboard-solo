@@ -1,0 +1,17 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: $btn-color;
+    color: $background-color-2;
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 40px;
+    margin-left: 10px;
+    
+    &:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+}
