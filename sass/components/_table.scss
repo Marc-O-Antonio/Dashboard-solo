@@ -39,3 +39,28 @@
         }
     }  
 }
+
+@media (max-width: 768px) {
+    .table {
+        .table-row {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .table{
+        height: 100%;
+
+        .table-wrapper {
+            flex-direction: column;
+            margin: 20px auto;
+            .column {
+                width: 100%;
+            }
+        }
+        .table-row {
+            width: 250px;
+        }
+    }
+}

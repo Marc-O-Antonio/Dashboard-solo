@@ -8,3 +8,26 @@ main section {
     background-color: $background-color-2;
     margin: 10px auto;
 }
+
+@media (max-width: 768px){
+
+    main {
+        padding: 0;
+    }
+    main section {
+        margin: 5px auto;
+    }
+
+    .general {
+        padding-left: 40px;
+    }
+
+    .sidelogo {
+        padding: 0;
+    }
+    
+    .logo {
+    width: 75%;
+    }
+
+}
