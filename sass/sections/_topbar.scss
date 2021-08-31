@@ -52,3 +52,9 @@ nav {
         font-weight: 500;
     }
 }
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
