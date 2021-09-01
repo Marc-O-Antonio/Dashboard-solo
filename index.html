@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="vendor/icons/icon-font/css/Glyphter.css">
 </head>
 <body>
+    <div class="overlay" id="overlay">
+        <div class="modal" id="myModal">
+          <div class="btn-close js--close-modal">x</div>
+      
+          <h4>Witaj w modalu!</h4>
+          <p>Lorem ipsum dolor sit amet...</p>
+      
+          <button class="js--close-modal">Okay</button>
+        </div>
+        <div class="modal" id="yourModal">
+            <div class="btn-close js--close-modal">x</div>
+        
+            <h4>ASDAADS!</h4>
+            <p>Lorem ipsum dolor sit amet...</p>
+        
+            <button class="js--close-modal">Okay</button>
+          </div>
+    </div>
 	<aside class="sidebar">
         <div class="sidebar-container">
             <div class="sidelogo">
@@ -57,7 +75,7 @@
                         </a>
                     </li>
                     <li class="sidebar-list">
-                        <a class="sidebar-list-item" href="#exit"><img src="vendor/icons/quit.svg" class="icon">Logout</a>
+                        <a class="sidebar-list-item logout-2" href="#exit"><img src="vendor/icons/quit.svg" class="icon">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -92,7 +110,7 @@
                     <div class="user-name">Leonardo Dicaprio</div>
                 </li>
                 <li class="topbar-list-item top-bar-logout">
-                    <a href="#exit"><i class="icon-quit icon-top"></i></a>
+                    <a href="#exit" class="logout"><i class="icon-quit icon-top"></i></a>
                 </li>
             </ul>
         </div>
