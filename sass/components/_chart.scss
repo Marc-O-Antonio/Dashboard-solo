@@ -5,3 +5,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 1020px) {
+    .chart {
+        padding: 0 20px;
+    }
+}

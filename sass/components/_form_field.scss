@@ -60,3 +60,37 @@
         }
     }
 }
+
+
+@media (max-width: 375px) {
+    .form-body {
+        
+        .form {
+    
+            .form-frame {
+                flex-direction: column;
+    
+                &::before {
+                    z-index: 1;
+                    display: none;
+                }
+            } 
+    
+            .field-1 {
+                padding: 0;
+            }
+        }
+        
+        input[type="date"] {
+
+    
+            &:first-of-type::-webkit-calendar-picker-indicator {
+                background: url('/vendor/icons/calendar.svg') no-repeat;
+                background-size: 16px;
+                margin-right: 10px;
+                color: $font-color;
+            }
+        
+        }
+    }
+}
